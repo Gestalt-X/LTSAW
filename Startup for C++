@@ -1,0 +1,10 @@
+//Hello World.cpp -- show you the code XD
+
+#include <iostream>
+int main()
+{
+    using namespace std;
+    cout << "Hello World, I'm new to programming." << endl;
+    cout << "However, I will be here till the end.";
+    return 0;
+}
