@@ -1,0 +1,22 @@
+//等级制
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	float x;
+	cout << "请输入成绩：";
+	cin >> x;
+	if (x >= 90)
+		cout << "A";
+	else if (x >= 80)
+		cout << "B";
+	else if (x >= 70)
+		cout << "C";
+	else if (x >= 60)
+		cout << "D";
+	else
+		cout << "E";
+	return 0;
+}
